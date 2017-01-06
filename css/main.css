@@ -5836,4 +5836,10 @@ body {
 .rosa {
   background-color: #EC999B; }
 
+.fondo-cuatro {
+  background-image: url("../img/parallax-4.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 800px; }
+
 /*# sourceMappingURL=main.css.map */

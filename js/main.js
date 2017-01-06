@@ -1,5 +1,3 @@
-$(document).ready(function() {
-
 $(window).load(function() {
 	$(".btn-nav").on("click tap", function() {
     $(".nav-content").toggleClass("showNav hideNav").removeClass("hidden");
@@ -9,6 +7,11 @@ $(window).load(function() {
   });
 });
 
+
+$(document).ready(function() {
+  $(function() {
+      $('#slides').superslides({
+        hashchange: true
+      });
+    });
 });
-
-
