@@ -1,11 +1,36 @@
+body {
+	font-family: $fuente;
+}
+
 .fondo {
 	background-image: url("../img/parallax-1.jpg");
 	background-size: cover;
 	width: 100%;
+	height: 800px;
 }
 
 .fondo-dos {
 	background-image: url("../img/parallax-3.jpg");
 	background-size: cover;
 	width: 100%;
+	height: 800px;
+}
+
+.fondo-tres {
+	background-image: url("../img/parallax-2.jpg");
+	background-size: cover;
+	width: 100%;
+	height: 800px;
+}
+
+.amarillo {
+	background-color: $fondo-amarillo;
+}
+
+.verde {
+	background-color: $fondo-verde;
+}
+
+.rosa {
+	background-color: $fondo-rosa;
 }
