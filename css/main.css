@@ -5845,4 +5845,9 @@ body {
 .gris {
   background-color: #383A38; }
 
+h1 {
+  font-size: 62px;
+  font-weight: bold;
+  color: white; }
+
 /*# sourceMappingURL=main.css.map */
