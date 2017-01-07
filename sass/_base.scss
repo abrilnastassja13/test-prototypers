@@ -47,7 +47,11 @@ body {
 }
 
 h1 {
-    font-size: 62px;
+    font-size: $font-size1;
     font-weight: bold;
-    color: white;
+    color: $fuente-blanca;
+}
+
+.blanco {
+	color: $fuente-blanca;
 }
